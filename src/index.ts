@@ -54,7 +54,6 @@ async function game() {
     console.log("Here's the flop:", flop.map(toDisplayFmt));
     await sleep(3 * Seconds);
 
-
     const [turnCard, deckMinusTurn] = draw(1, deckMinusFlop);
     const turn = flop.concat(turnCard);
     console.log("Here's the turn:", turn.map(toDisplayFmt));
