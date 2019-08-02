@@ -1,0 +1,3 @@
+# poker-ts
+
+A fun way to learn some TypeScript...
