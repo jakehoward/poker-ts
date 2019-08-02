@@ -20,9 +20,7 @@ type Card = {
     suit: Suit,
     rank: Rank,
 }
-
 type Hand = [Card, Card]
-
 type Deck = Card[];
 
 const allRanks: Rank[] = ["Ace", "King", "Queen", "Jack", 10, 9, 8, 7, 6, 5, 4, 3, 2];
